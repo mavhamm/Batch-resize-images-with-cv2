@@ -23,4 +23,4 @@ for i in all_images:
     # cv2.destroyAllWindows()
 
     # writes resized files to the new directory
-    cv2.imwrite(f"{new_directory}/{i}_resized", resized)
+    cv2.imwrite(f"{new_directory}/{i}", resized)
